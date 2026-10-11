@@ -2,23 +2,23 @@
 
 Windows, macOS ve Linux için OpenVPN masaüstü istemcisi. Bu depo kurulum dosyalarını ve otomatik güncellemeleri tutar. Kaynak kodu burada değildir.
 
-Güncel sürüm **1.0.5**.
+Güncel sürüm **1.0.6**.
 
 | Sistem | Dosya |
 | --- | --- |
-| Windows 64 bit | [VPNManager-1.0.5-win-x64-Setup.exe](https://github.com/omeruygun/omura-vpn-manager-releases/releases/download/v1.0.5/VPNManager-1.0.5-win-x64-Setup.exe) |
-| macOS Apple silicon | [VPNManager-1.0.5-osx-arm64.pkg](https://github.com/omeruygun/omura-vpn-manager-releases/releases/download/v1.0.5/VPNManager-1.0.5-osx-arm64.pkg) |
-| Linux 64 bit | [VPNManager-1.0.5-linux-x64.AppImage](https://github.com/omeruygun/omura-vpn-manager-releases/releases/download/v1.0.5/VPNManager-1.0.5-linux-x64.AppImage) |
+| Windows 64 bit | [VPNManager-1.0.6-win-x64-Setup.exe](https://github.com/omeruygun/omura-vpn-manager-releases/releases/download/v1.0.6/VPNManager-1.0.6-win-x64-Setup.exe) |
+| macOS Apple silicon | [VPNManager-1.0.6-osx-arm64.pkg](https://github.com/omeruygun/omura-vpn-manager-releases/releases/download/v1.0.6/VPNManager-1.0.6-osx-arm64.pkg) |
+| Linux 64 bit | [VPNManager-1.0.6-linux-x64.AppImage](https://github.com/omeruygun/omura-vpn-manager-releases/releases/download/v1.0.6/VPNManager-1.0.6-linux-x64.AppImage) |
 
-Tüm dosyalar [Releases](https://github.com/omeruygun/omura-vpn-manager-releases/releases/tag/v1.0.5) sayfasındadır.
+Tüm dosyalar [Releases](https://github.com/omeruygun/omura-vpn-manager-releases/releases/tag/v1.0.6) sayfasındadır.
 
-1.0.5 kalkan simgesini macOS Uygulamalar ve Dock görünümüne, Windows masaüstü kısayoluna ve Görev Yöneticisi'ne koyar. Kurulu 1.0.4 açılınca bu sürümü sorar. Paketler imzasızdır. OpenVPN bu pakete konmaz.
+1.0.6 uyku, kapanış ve internet kopmasında tüneli kapatır. Kurulu 1.0.4 ve sonrası açılınca yeni sürümü sorar. Paketler imzasızdır. OpenVPN bu pakete konmaz.
 
 ## Kurulum
 
 ### Windows
 
-1. `VPNManager-1.0.5-win-x64-Setup.exe` dosyasını indirin.
+1. `VPNManager-1.0.6-win-x64-Setup.exe` dosyasını indirin.
 2. SmartScreen uyarırsa **Daha fazla bilgi** ve ardından **Yine de çalıştır** deyin. Paket imzasız olduğu için bu uyarı beklenir.
 3. Kurulumu bitirin. Masaüstüne ve Başlat menüsüne **VPN Manager** kısayolu gelir.
 4. Kısayoldan açın. Pencerenin kendisi yönetici olarak çalışmaz.
@@ -27,14 +27,14 @@ Pencere açılmazsa Görev Yöneticisi'nde kalan `VPNManager` sürecini sonland�
 
 ### macOS
 
-1. `VPNManager-1.0.5-osx-arm64.pkg` dosyasını indirin. Bu paket Apple silicon içindir.
+1. `VPNManager-1.0.6-osx-arm64.pkg` dosyasını indirin. Bu paket Apple silicon içindir.
 2. Paketi açın. Gatekeeper engellerse Sistem Ayarları > Gizlilik ve Güvenlik bölümünden açılmasına izin verin.
 3. Kurulum bitince VPN Manager'ı açın.
 
 ### Linux
 
-1. `VPNManager-1.0.5-linux-x64.AppImage` dosyasını indirin.
-2. Çalıştırma izni verin: `chmod +x VPNManager-1.0.5-linux-x64.AppImage`
+1. `VPNManager-1.0.6-linux-x64.AppImage` dosyasını indirin.
+2. Çalıştırma izni verin: `chmod +x VPNManager-1.0.6-linux-x64.AppImage`
 3. Gerçek tünel için uygulamayı root olarak açın. Root değilse bağlantı kurulmuş gibi gösterilmez.
 
 ## OpenVPN
@@ -104,9 +104,9 @@ Güncelleme anahtarı gerekmez. Sürümler bu herkese açık depodan okunur.
 
 ## Güncelleme
 
-1.0.5 ve sonraki kurulu kopyalar açılışta bu depoya bakar. Yeni sürüm varsa **Güncelle** veya **Sonra** diye sorar. Güncelle derseniz paket iner, açık tünel kapanır ve uygulama yeniden başlar.
+1.0.6 ve sonraki kurulu kopyalar açılışta bu depoya bakar. Yeni sürüm varsa **Güncelle** veya **Sonra** diye sorar. Güncelle derseniz paket iner, açık tünel kapanır ve uygulama yeniden başlar.
 
-1.0.3 ve daha eski kurulumlar bu depoyu bilmez. Onlar için 1.0.5'ü bu sayfadan bir kez elle kurun. Sonraki sürümler açılışta sorulur.
+1.0.3 ve daha eski kurulumlar bu depoyu bilmez. Onlar için 1.0.6'ü bu sayfadan bir kez elle kurun. Sonraki sürümler açılışta sorulur.
 
 ## Veriler
 
